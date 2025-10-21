@@ -27,7 +27,14 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "navsymphony-lib"
+include(":nav-choreographer")
+include(":nav-domain")
+include(":nav-graph-builder")
+include(":nav-graph-core")
 include(":nav-menu-core")
+include(":nav-presentation")
 include(":nav-screen-core")
+include(":nav-screen-shared")
+include(":nav-window-overlay")
 
 includeBuild("../build-integration")

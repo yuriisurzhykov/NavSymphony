@@ -1,0 +1,2 @@
+-include ../../proguard-rules/common.pro
+-include ../../proguard-rules/coroutines.pro
