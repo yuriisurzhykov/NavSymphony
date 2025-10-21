@@ -21,5 +21,6 @@ dependencyResolutionManagement {
 
 rootProject.name = "NavSymphony"
 include(":app")
-include(":navSymphony")
-include(":navsymphony:nav-screen-core")
+
+includeBuild("navSymphony")
+includeBuild("build-integration")

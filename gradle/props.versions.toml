@@ -1,0 +1,8 @@
+# Project-related and properties
+[versions]
+project-id = "com.surzhykov.navsymphony"
+target-sdk = "36"
+min-sdk = "26"
+jvm-target = "17"
+jvm-source = "17"
+compile-sdk = "36"

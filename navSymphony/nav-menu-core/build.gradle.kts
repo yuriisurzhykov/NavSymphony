@@ -8,10 +8,13 @@ coreModuleConfig {
 }
 
 dependencies {
+    implementation(libs.androidx.core.ktx)
+    implementation(libs.androidx.appcompat)
+    implementation(libs.androidx.core.splashscreen)
 
     // Kotlin dependencies
     implementation(libs.kotlinx.coroutines.core)
-    implementation(libs.kotlinx.serialization.json)
+    implementation(libs.kotlinx.collections.immutable)
 
     //Jetpack compose dependencies
     implementation(platform(libs.androidx.compose.bom))
@@ -24,6 +27,7 @@ dependencies {
 
     // Dependencies required for unit tests
     testImplementation(libs.junit)
+    testImplementation(libs.mockk)
     testImplementation(libs.kotlinx.coroutines.test)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)

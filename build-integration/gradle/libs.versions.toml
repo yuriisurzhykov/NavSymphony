@@ -1,0 +1,8 @@
+[versions]
+androidGradlePlugin = "8.12.3"
+kotlin = "2.2.20"
+
+[libraries]
+gradle-plugin-library = { module = "com.android.tools.build:gradle", version.ref = "androidGradlePlugin" }
+kotlin-android-plugin-library = { module = "org.jetbrains.kotlin.android:org.jetbrains.kotlin.android.gradle.plugin", version.ref = "kotlin" }
+compose-compiler-plugin-library = { module = "org.jetbrains.kotlin.plugin.compose:org.jetbrains.kotlin.plugin.compose.gradle.plugin", version.ref = "kotlin" }
