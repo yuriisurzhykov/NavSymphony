@@ -37,6 +37,7 @@ navigationTesting = "2.9.5"
 
 # Third-party libraries versions
 timber = "5.0.1"
+material3 = "1.4.0"
 
 [libraries]
 # Kotlin libraries

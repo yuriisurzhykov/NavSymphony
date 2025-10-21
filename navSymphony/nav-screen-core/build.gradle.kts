@@ -9,6 +9,8 @@ coreModuleConfig {
 
 dependencies {
 
+    implementation(projects.navDomain)
+
     // Kotlin dependencies
     implementation(libs.kotlinx.coroutines.core)
     implementation(libs.kotlinx.serialization.json)

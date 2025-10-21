@@ -8,6 +8,11 @@ coreModuleConfig {
 }
 
 dependencies {
+    implementation(projects.navDomain)
+    implementation(projects.navPresentation)
+    implementation(projects.navGraphCore)
+    implementation(projects.navScreenCore)
+
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.androidx.core.splashscreen)
@@ -24,6 +29,7 @@ dependencies {
     implementation(libs.androidx.compose.navigation)
     implementation(libs.androidx.compose.runtime.livedata)
     implementation(libs.androidx.compose.animation.graphics)
+    implementation(libs.androidx.compose.material3)
 
     // Dependencies required for unit tests
     testImplementation(libs.junit)
